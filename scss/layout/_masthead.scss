@@ -1,7 +1,11 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
+  min-height: 100vh;
   color: white;
+  display: flex;
+  justify-items: center;
+  align-items: center; 
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
