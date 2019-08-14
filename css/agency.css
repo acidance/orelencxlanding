@@ -177,9 +177,10 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/header-bg.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top center;
+  background-size: 100%;
 }
 
 header.masthead .intro-text {
